@@ -1,0 +1,36 @@
+/* app css stylesheet */
+
+.course {
+  background: #eee;
+  border: 1px solid black;
+  border-bottom: none;
+}
+
+.course h3 {
+  background-color: #ddd;
+  border-bottom: 1px solid black;
+  padding: 20px;
+  margin: 0;
+}
+
+.course ul {
+  list-style: none;
+  padding: 20px;
+  margin: 0;
+}
+
+.course ul p {
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.course ul p.date {
+}
+
+.course:last-child {
+  border-bottom: 1px solid black;
+}
+
+.date input {
+  display: inline-block;
+}

@@ -1,0 +1,15 @@
+<div>
+  <h4>{{lesson.name}}</h4>
+  <p class="description">{{ lesson.description }}</p>
+  <div class="date" ng-scope ng-click="editing = true" >
+    <div>Completed on: <span ng-bind="lesson.date"></span>
+      <div>
+      </div>
+    </div>
+  </div>
+  <div class="comments" >
+    <h5>Comments</h5>
+    <p editable-text="lesson.comments">{{ lesson.comments || "" }}</p>
+  </div>
+  <hr/>
+</div>
